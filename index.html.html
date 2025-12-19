@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كافي سلامة الجميل</title>
+    <link rel="icon" href="poster.jpg"/>
+    <link rel="stylesheet" href="css1.css">
+    <script src="js1.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <div id="div1">
+            <img src="poster.jpg" alt="logo for the cafe" draggable="false">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#offers">Special Offers</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="div2"> 
+            <h1>Welcome To <span class="highlight">Salama</span> Cafe</h1>
+            <p>Here you can find the most delicious food at Salama Cafe</p>
+            <a href="tel:+218927536140">Book a Table</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="About">
+            <div class="section-title">
+                <h1>The <span class="highlight">Salama</span> Cafe History</h1>
+                <p>More than 15+ years of experience</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>This cafe has been open since 2010 and until now, we are art and perfection, we always strive to serve our customers with all our love, and to offer the most delicious food in our branches. Everything we offer is made with all our love because you are the closest to our hearts. We hope that we will never disappoint you. May you remain safe and not hungry with our presence.</p><br><br>
+                    
+                    <a href="https://www.facebook.com/share/1anTAMvvan/" target="_blank">Learn More</a>
+                </div>
+                <div class="about-images">
+                    <img src="cofe2.jpg" alt="cafe interior" class="img1">
+                    <img src="cofe3.jpg" alt="cafe food" class="img2">
+                    <img src="cofe.jpg" alt="cafe drinks" class="img3">
+                </div>
+            </div>
+        </section>
+
+        <section id="offers">
+            <div class="section-title">
+                <h1>Our Special Offers</h1>
+                <p>More than 15+ years of experience</p>
+            </div>
+            <div class="offers-container">
+                <div class="offer-card">
+                    <img src="shawarma.jpg" alt="Shawarma">
+                    <h2>Shawarma</h2>
+                    <p>Delicious shawarma prepared from slices of meat or chicken...</p>
+                    <p class="price"><del>15$</del> <span>10$</span></p>
+                </div>
+                <div class="offer-card">
+                    <img src="pizza.jpg" alt="Pizza">
+                    <h2>Pizza</h2>
+                    <p>Fresh Italian pizza with golden, flaky crust...</p>
+                    <p class="price"><del>30$</del> <span>25$</span></p>
+                </div>
+                <div class="offer-card">
+                    <img src="birger.jpg" alt="Burger">
+                    <h2>Burger</h2>
+                    <p>A delicious hamburger made from fresh, carefully grilled meat...</p>
+                    <p class="price"><del>12$</del> <span>8$</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="section-title">
+                <h1>Our Special Menu</h1>
+                <p>Order two and get third for free</p>
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="b active" data-category="all">All</button>
+                <button class="b" data-category="grills">Grills</button>
+                <button class="b" data-category="pastries">Pastries</button>
+            </div>
+
+<div class="menu-container">
+                <div class="menu-column">
+                    <!-- معجنات -->
+                    <div class="it" data-category="pastries">
+                        <img src="img1.jpg" alt="Burger">
+                        <div class="item-info">
+                            <h3>Burger <span>13$</span></h3>
+                            <p>Steak, cheese, French fries, sauces</p>
+                        </div>
+                    </div>
+                    
+                    <div class="it" data-category="pastries">
+                        <img src="paget.jpg" alt="Baqiyat">
+                        <div class="item-info">
+                            <h3>Baqiyat <span>20$</span></h3>
+                            <p>Tomato sauce, dips, chicken pieces, cheese, French fries</p>
+                        </div>
+                    </div>
+                    
+                    <div class="it" data-category="pastries">
+                        <img src="animation.gif" alt="Fahita">
+                        <div class="item-info">
+                            <h3>Fahita <span>18$</span></h3>
+                            <p>A slice of bread containing slices of meat, cheese, sauces, and vegetables</p>
+                        </div>
+                    </div>
+                    
+                    <!-- مشاوي -->
+                    <div class="it" data-category="grills">
+                        <img src="capap.jpg" alt="Kebab">
+                        <div class="item-info">
+                            <h3>Kebab <span>27$</span></h3>
+                            <p>Charcoal-grilled meat skewers, white rice, grilled vegetables, and French fries</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-column">
+                    <!-- معجنات -->
+                    <div class="it" data-category="pastries">
+                        <img src="pizza.jpg" alt="Vegetable Pizza">
+                        <div class="item-info">
+                            <h3>Vegetable Pizza <span>20$</span></h3>
+                            <p>Tomato sauce, vegetable pieces, and cheese</p>
+                        </div>
+                    </div>
+                    
+                    <!-- مشاوي -->
+                    <div class="it" data-category="grills">
+                        <img src="bbq.jpg" alt="BBQ Meal">
+                        <div class="item-info">
+                            <h3>BBQ Meal <span>47$</span></h3>
+                            <p>A complete meal of grilled chicken, meat skewers, and white rice</p>
+                        </div>
+                    </div>
+                    
+                    <!-- معجنات -->
+                    <div class="it" data-category="pastries">
+                        <img src="vpizza.jpg" alt="Chicken Pizza">
+                        <div class="item-info">
+                            <h3>Chicken Pizza <span>25$</span></h3>
+                            <p>Tomato sauce, chicken, cheddar cheese</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+            <footer class="footer">
+                <section id="contact">
+                    <br><br><br><br><br><br><br><br><br>
+         <div class="footer-box">
+
+            <!-- ADDRESS -->
+            <div class="footer-section">
+                <h3>ADDRESS</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Al-Hedia street , Al-Jamil</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: 123456789</p>
+                <p><i class="fa-solid fa-envelope"></i> salamacofe@google.com</p>
+            </div>
+
+            <!-- WORKING HOURS -->
+            <div class="footer-section">
+                <h3>WORKING HOURS</h3>
+                <p>8:00 am to 11:00 pm on Weekdays</p>
+                <p>11:00 am to 1:00 am on Weekends</p>
+            </div>
+
+            <!-- FOLLOW US -->
+            <div class="footer-section">
+                <h3>FOLLOW US</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1AkR5u1qoT/" target="_blank"><i class="fa-brands fa-facebook-f" ></i></a>
+                    <a href="https://www.tiktok.com/@cafe_salama?_r=1&_t=ZM-92L1hOnG5wS" target="_blank"><i class="fa-brands fa-facebook-f" ></i></a>
+                    
+                    
+                </div>
+            </div>
+
+        </div><br>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2025 Kholoud Abeed All rights reserved</p>
+        </div><br>
+        </section>
+    </footer><br><br><br>
+    
+    
+</body>
+</html>
